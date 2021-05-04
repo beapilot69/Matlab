@@ -7,8 +7,7 @@ Trellis = poly2trellis(7,[133 171]);
 %% level.1 turbo decoding
 if (level >= 1)
     %input = [bin2dec()-'0', output];
-    bits = num2str(reshape(vitdec(message,Trellis,40,'cont','hard'),8,[]).');
-    bits = nonzeros(bin2dec(bits)).';
+    
 
 
 end
