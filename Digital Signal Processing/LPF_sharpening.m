@@ -39,7 +39,7 @@ for row = 1:row_size
 end
 
 %% 최종 출력 y를 이미지로 변환
-imwrite(y,map,'yoon.jpg'); % lena.jpg로 변경
+imwrite(y,map,'lena_LPF_255.jpg'); % lena.jpg로 변경
 
 %% FFT
 n= length(x);
