@@ -1,3 +1,5 @@
+%%% edge-finding filter 구현
+
 %% 이미지 파일 불러오기
 [x, map] = imread('lena.png');
 
